@@ -37,4 +37,9 @@ public class ProductService {
             throw new RuntimeException("produto não encontrado");
         productRepository.deleteById(id);
     }
+
+    //buscar produto por nome
+    public  List<Product> findByName(String name){
+        return productRepository.findByNameContainingIgnoreCase(name);
+    }
 }
