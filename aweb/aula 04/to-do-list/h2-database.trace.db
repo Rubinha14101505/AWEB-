@@ -1,3 +1,0 @@
-2025-08-27 21:27:13.484414-03:00 jdbc[13]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODO" not found; SQL statement:
-SELECT * FROM todo [42102-232]
